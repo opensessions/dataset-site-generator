@@ -3,7 +3,7 @@
   "title": "Open Sessions",
   "description": "Session data from opensessions.io",
   "publisher-name": "Open Sessions",
-  "publisher-url": "https://www.opensession.io",
+  "publisher-url": "https://www.opensessions.io",
   "keyword-1": "Open data",
   "keyword-2": "Sessions",
   "data-url": "https://app.opensessions.io/api/rdpe/sessions",
