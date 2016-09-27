@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://opensessions.github.io/",
+  "dataset-site-url": "http://data.opensessions.io/",
   "title": "Open Sessions",
   "description": "Session data from opensessions.io",
   "publisher-name": "Open Sessions",
@@ -13,7 +13,7 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "Open Sessions",
-  "attribution-url": "https://opensessions.github.io/",
+  "attribution-url": "http://data.opensessions.io/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us1.list-manage.com\",\"uuid\":\"dc600e1440e2138f44a060891\",\"lid\":\"175c3a163a\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
