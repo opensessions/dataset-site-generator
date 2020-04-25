@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "Open Sessions",
-      "id": "http://data.opensessions.io/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "http://data.opensessions.io/",
       "url": "http://data.opensessions.io/",
-      "description" : "Session data from the Open Sessions site; published using OpenActive RPDE v2.0.",
+      "name": "Open Sessions",
+      "description": "Session data from the Open Sessions site; published using OpenActive RPDE v2.0.",
       "keywords":[
-         "Open Data",
-         "Sessions",
-         "OpenActive"
+          "Open Data",
+          "Sessions",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=2.0",
-        "contentUrl" : "https://opensessions.io/api/rpde/session-series"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://opensessions.io/api/rpde/session-series"
+        }
+      ],
+      "discussionUrl": "https://github.com/opensessions/opendata/issues",
+      "documentation": "https://github.com/opensessions/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "Open Sessions",
-         "url": "https://opensessions.io",
-         "logo": "http://data.opensessions.io/images/logo.png"
+        "@type": "Organization",
+        "name": "Open Sessions",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://data.opensessions.io/images/logo.png"
+        },
+        "url": "https://opensessions.io"
       },
-      "datePublished" : "2018-03-10T00:00:00.000Z"
+      "datePublished": "2018-03-10T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "http://data.opensessions.io/images/bg.jpg"
+      }
     }
     </script>
   </head>
